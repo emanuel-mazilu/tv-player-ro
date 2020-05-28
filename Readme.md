@@ -3,6 +3,16 @@
 Tv Player Ro is a tv streaming app made with electron
 for mostly romanian channels
 
+clone repo
+```git clone https://github.com/emanuel-mazilu/tv-player-ro.git```
+
+install dependecies
+```npm install```
+
+start the app
+
+```npm start```
+
 Add new chanels:
 add the name of the channel and the streaming link to canaletv.txt
 
