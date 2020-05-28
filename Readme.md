@@ -4,9 +4,11 @@ Tv Player Ro is a tv streaming app made with electron
 for mostly romanian channels
 
 clone repo
+
 ```git clone https://github.com/emanuel-mazilu/tv-player-ro.git```
 
 install dependecies
+
 ```npm install```
 
 start the app
