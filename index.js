@@ -3,7 +3,7 @@
 
 function changeChannel(e){
     event.preventDefault();
-    var link = e.target.href;
-    var videoPlayer = videojs("my-video");
+    const link = e.target.href;
+    const videoPlayer = videojs("my-video");
     videoPlayer.src({src: link})
 }

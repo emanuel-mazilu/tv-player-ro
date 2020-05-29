@@ -16,14 +16,14 @@ const tvChanels = new Map(table);
 function addChannels(){
     for (let [k, v] of tvChanels) {
 
-        var ul = document.getElementById("channels");
+        const ul = document.getElementById("channels");
 
-        var liTag = document.createElement("li");
+        const liTag = document.createElement("li");
         liTag.setAttribute("id", "canal");
         ul.appendChild(liTag);
 
-        var a = document.createElement("a");
-        var link = document.createTextNode(k);
+        const a = document.createElement("a");
+        const link = document.createTextNode(k);
         a.setAttribute("onClick", "changeChannel(event)")
         a.appendChild(link)
         a.href = v;
