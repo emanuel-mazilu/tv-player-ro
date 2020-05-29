@@ -10,3 +10,5 @@ VH1 -- https://content-ausc2.uplynk.com/channel/7a16e3d5ffd0413ba4d8ac89688ed7cd
 ROCKTV -- https://fms-https1.mediadirect.ro/live3/_definst_/rocktv.smil/chunklist_w1964346070_b1600000.m3u8?publisher=83
 DJING -- https://www.djing.com/tv/i-29283-04.m3u8
 ANTENA3 -- https://live3vox.antenaplay.ro/a3free/250.m3u8?starttime=1590666809&endtime=1590674039&source=web&token=oVUUQeJtN1zsURjmpGmeQy79Slc=
+BBCNEWS -- https://edge-1192-ch-gv.filmon.com/live/27.low.stream/playlist.m3u8?id=0ad5aac39bb13fbe48f8370a1906f861b6c0e1caf8c6fa9088261f0115001c4b2046a6ff697990150473fb4842c458da3598381bb9b32851cbd0c2ad8afff45279064c39425afcb721de33d1fb6cb0e69b478980a166c25e508c6782d79c33af0fee759b5469604dc56ef9e8c027e823a41bcc09d75c89e103545fe9d5673903e4fbec01e1acf18c39e0076d99ab40e072cbc730bfa65839
+RADIOHIT -- http://playerservices.streamtheworld.com/api/livestream-redirect/977_HITS.mp3

@@ -25,6 +25,12 @@ function addChannels(){
         const a = document.createElement("a");
         const link = document.createTextNode(k);
         a.setAttribute("onClick", "changeChannel(event)")
+        if (link.wholeText.includes("RADIO")) {
+            a.setAttribute("type", "video/mp4");
+        } else {
+            a.setAttribute("type", "application/vnd.apple.mpegurl");
+        }
+ 
         a.appendChild(link)
         a.href = v;
         liTag.appendChild(a);
