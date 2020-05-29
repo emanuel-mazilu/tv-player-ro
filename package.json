@@ -1,49 +1,33 @@
 {
-  "name": "tv_player",
+  "name": "tv-player-ro",
   "version": "0.1.0",
+  "description": "Streams romanian tv channels",
   "main": "main.js",
   "scripts": {
-    "start": "electron-forge start",
-    "package": "electron-forge package",
-    "make": "electron-forge make"
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emanuel-mazilu/tv-player-ro.git"
   },
   "devDependencies": {
-    "@electron-forge/cli": "^6.0.0-beta.51",
-    "@electron-forge/maker-deb": "^6.0.0-beta.51",
-    "@electron-forge/maker-rpm": "^6.0.0-beta.51",
-    "@electron-forge/maker-squirrel": "^6.0.0-beta.51",
-    "@electron-forge/maker-zip": "^6.0.0-beta.51",
-    "electron": "^9.0.0",
-    "video.js": "^7.8.2"
+    "electron": "^9.0.0"
   },
-  "dependencies": {
-    "electron-squirrel-startup": "^1.0.0"
+  "keywords": [
+    "stream",
+    "romania",
+    "channels",
+    "tv",
+    "programe",
+    "programetv",
+    "protv",
+    "tvonline",
+    "livetv"
+  ],
+  "author": "Emanuel Mazilu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emanuel-mazilu/tv-player-ro/issues"
   },
-  "config": {
-    "forge": {
-      "packagerConfig": {},
-      "makers": [
-        {
-          "name": "@electron-forge/maker-squirrel",
-          "config": {
-            "name": "tv_player"
-          }
-        },
-        {
-          "name": "@electron-forge/maker-zip",
-          "platforms": [
-            "darwin"
-          ]
-        },
-        {
-          "name": "@electron-forge/maker-deb",
-          "config": {}
-        },
-        {
-          "name": "@electron-forge/maker-rpm",
-          "config": {}
-        }
-      ]
-    }
-  }
+  "homepage": "https://github.com/emanuel-mazilu/tv-player-ro#readme"
 }
