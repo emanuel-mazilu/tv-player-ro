@@ -42,6 +42,14 @@ a:hover {
   background-color: #EEEEEE;
   color: #2B333F;
 }
+.current {
+  background-color: #EEEEEE;
+  color: #2B333F;
+}
+.inactive {
+  background-color: #2B333F;
+  color: #EEEEEE;
+}
 
 #channels-box {
   width: 150px;

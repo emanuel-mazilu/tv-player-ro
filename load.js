@@ -8,7 +8,6 @@ const text = fs.readFileSync(filePath).toString();
 const table = text.split("\n").map(pair => pair.split(" -- "));
 const tvChanels = new Map(table);
 
-
 // add the channels from dicrionary to as li in an ul list with an a tag 
 //  adding onClick function as an attribute to a
 //  doing this for every item in the dictionary (key=ChannelName, value=link)
@@ -30,7 +29,7 @@ function addChannels(){
         } else {
             a.setAttribute("type", "application/vnd.apple.mpegurl");
         }
- 
+        a.classList.add("inactive");
         a.appendChild(link)
         a.href = v;
         liTag.appendChild(a);
@@ -38,4 +37,14 @@ function addChannels(){
     }
 }
 
+// Activate/Deactivate button
+function toggleActive(element){    
+    element.classList.toggle("current");
+    element.classList.toggle("inactive");
+}
+
 addChannels();
+//  get first button from list after is created
+var oldelement = document.getElementsByClassName("inactive")[0];
+// activate first button
+toggleActive(oldelement);
