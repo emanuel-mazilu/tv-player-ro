@@ -11,7 +11,7 @@
     "url": "git+https://github.com/emanuel-mazilu/tv-player-ro.git"
   },
   "devDependencies": {
-    "electron": "^9.0.0"
+    "electron": "^9.1.0"
   },
   "keywords": [
     "stream",
